@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+
+
+
+.parent{
+   padding:0%;
+ background-color: aliceblue;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+
+justify-content: space-between;
+width: 100vw;
+height: 100vh;
+}
+
+.h1text{
+    font-size: 4rem;
+    letter-spacing: 0.9px;
+     background: linear-gradient(
+      120deg,
+      rgb(0, 223, 33) 0%,
+      rgba(201, 220, 0, 0.851) 100%
+    ); 
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+  }
+
+.name{
+    font-size: 1.5rem;
+    letter-spacing: 0.6px;
+
+    background: linear-gradient(
+        120deg,
+        rgb(36, 0, 144) 0%,
+        rgba(0, 187, 220, 0.851) 100%
+      ); 
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: fit-content;
+}
+
+.namee{
+    font-size: 1.5rem;
+    letter-spacing: 0.6px;
+    padding: left 0;;
+    background: linear-gradient(
+        120deg,
+        rgb(223, 0, 212) 0%,
+        rgba(220, 0, 216, 0.851) 100%
+      ); 
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: fit-content;
+}
+
+.namecon{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 10%;
+    object-fit: contain;
+    border-radius: 50%;
+    
+    background-color: rgb(144, 247, 89);
+    
+}
+
+.ttile{
+
+    font: size 0.7em; ;
+    color: brown;
+    background: linear-gradient(
+        120deg,
+        rgb(223, 0, 30) 0%,
+        rgba(220, 0, 81, 0.851) 100%
+      ); 
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: fit-content;
+}
+
+.button{
+  
+   background-color: rgb(122, 236, 15);
+
+}
+
+.button:hover {
+   box-shadow: green;
+    transform: scale(1.05, 1.05);
+  }
+
+
+
+.icon{
+    cursor: pointer;
+    color:black;
+}
+.menubar{
+  width:55px;
+  font-size: large;
+  height:70px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border: 1px;
+    margin-top: 60px;
+    padding: 55px;
+    border-color: black;
+    border-radius: 10%;
+    box-shadow: 15%;
+    transform: scale(1.05, 1.05);
+    transition: all ease-in-out;
+}
+
+.company:hover{
+    box-shadow: 25%;
+    transform: scale(1.05, 1.05);
+    transition: all ease-in-out;
+    color: rgb(38, 0, 255);
+}
+
+.parent1{
+  padding:40px;
+}
+
+.plus{
+  margin-top: 2px;
+}
+
+
+@media (max-width: 780px) {
+  .parent{
+      width: 50%;
+      height: 100vh;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+  }
+  .menu{
+    width:50%;
+  }
+  .h1text{
+    font-size: 2rem;
+    letter-spacing: 0.9px;
+  }
+
+  .name{
+    font-size: 1rem;
+  }
+  .namee{
+    font-size: 1rem;
+  }
+  .img{
+    width :20%;
+    padding: 10px;
+  }
+
+  .design {
+    display: block;
+}
+}

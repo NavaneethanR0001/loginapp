@@ -1,0 +1,41 @@
+.plus{
+    margin-top: 2px;
+  }
+
+.counter_app{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter_label{
+    font-weight:bold;
+  
+    background: linear-gradient(
+        120deg,
+        rgb(130, 0, 144) 0%,
+        rgba(235, 102, 239, 0.851) 100%
+      ); 
+
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: fit-content;
+}
+  
+
+@media (max-width: 780px) {
+    .counter_app{
+        width: 50%;
+    height: 30%;
+    }
+
+    .design {
+        display: block;
+    }
+    
+}

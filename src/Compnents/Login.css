@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+.bodyy {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #22e44c, #affa53, #17d12d);
+    margin: 0;
+    padding: 0;
+}
+
+.containerr {
+    width: 30vw;
+    height: 30vh;
+    display: grid;
+  
+   
+    box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+}
+
+.designn {
+    grid-area: design;
+    display: none;
+    position: relative;
+}
+
+.rotate-45 {
+    transform: rotate(-45deg);
+}
+
+.designn .pill-1 {
+    bottom: 0;
+    left: -40px;
+    position: absolute;
+    width: 80px;
+    height: 200px;
+    background: linear-gradient(#ff966d, #fa538d, #89379c);
+    border-radius: 40px;
+}
+
+.designn .pill-2 {
+    top: -100px;
+    left: -80px;
+    position: absolute;
+    height: 450px;
+    width: 220px;
+    background: linear-gradient(#ff966d, #fa538d, #89379c);
+    border-radius: 200px;
+    border: 30px solid #e2c5e2;
+}
+
+.designn .pill-3 {
+    top: -100px;
+    left: 160px;
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    background: linear-gradient(#ff966d, #fa538d, #89379c);
+    border-radius: 70px;
+}
+
+.designn .pill-4 {
+    bottom: -180px;
+    left: 220px;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    background: linear-gradient(#ff966d, #fa538d);
+    border-radius: 70px;
+}
+
+.login {
+    grid-area: login;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: white;
+}
+
+.login h3.title {
+    margin: 15px 0;
+    padding-left: 40px;
+}
+
+.titlee {
+   margin-top:35px;
+    padding-left: 30px;
+}
+
+.text-inputt {
+    background: hwb(0 98% 0%);
+    height: 40px;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 10px;
+}
+
+.text-inputt input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 30vh;
+    height: 100%;
+    margin-left: 30px;
+    
+}
+
+.text-inputt{
+
+    padding: 4px;
+}
+.text-inputt label{
+    font-size: 12px;
+    color: #1c1b1b;
+    padding-right: 10%;
+    padding-left: 30px;
+}
+
+.label{
+    font-size: 12px;
+    color: #1c1b1b;
+    padding-right: 10%;
+}
+::placeholder {
+    color: #9a9a9a;
+}
+.text-input-select{
+padding: 5%;
+
+}
+.login-btnn {
+    width: 35%;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #5ce643, #66fa53, #0eee21);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+
+
+.create {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.create i {
+    color: #9a9a9a;
+    margin-left: 10px;
+}
+
+@media (max-width: 780px) {
+    .containerr{
+        width: 80%;
+    height: 30%;
+    }
+
+    .designn {
+        display: block;
+    }
+
+    
+}
